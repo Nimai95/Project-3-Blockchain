@@ -19,14 +19,18 @@ Escrow: Token/ETHs are transferred to a third-party smart contract called the es
 ## Smart Contracts Needed
 
 1. ICO of the Bank
-2. Loan Contract: calculating interest rate (TBD: bullet or amortizing principle), period of payment,missed/ late payment, penalties level, penalties of default level , payment, payment receipt,  
-3. Escrow Contract: Inherit from loan Contract: penalties, structure of payment.... 
+2. Loan Contract: calculating interest rate (TBD: bullet or amortizing principle), period of payment,missed/ late payment, penalties level, penalties of default level , payment, NIM( net interest margin) - 5%/10%,
+
+Build MVP: assumptions
+ 
 
 (*) Note: one of requirement to make Loan Contract valid is that Borrowers signed and deposit escrow money into escrow account
 
 ### Key Assumptions:
 
 - Currency: ETH
+- Details of the lending products:
+- Conditions of lending: revenue, customer networth, income, certain financial ratios
 - 
 
 ## Proposed Timeline
