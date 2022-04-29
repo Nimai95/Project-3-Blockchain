@@ -8,7 +8,7 @@ from typing import Any, List
 from pathlib import Path
 from dotenv import load_dotenv
 from web3 import Web3
-w3 = Web3(Web3.HTTPProvider('HTTP://127.0.0.1:8545'))
+# w3 = Web3(Web3.HTTPProvider('HTTP://127.0.0.1:8545'))
 ##########################################################
 
 load_dotenv()
@@ -29,7 +29,7 @@ w3 = Web3(Web3.HTTPProvider(os.getenv("WEB3_PROVIDER_URI")))
 def load_contract():
 
     # Load Art Gallery ABI
-    with open(Path('./contracts/compiled/xroToken_abi.json')) as f:
+    with open(Path('compiled/xroToken_abi.json')) as f:
         certificate_abi = json.load(f)
 
     # Set the contract address (this is the address of the deployed contract)

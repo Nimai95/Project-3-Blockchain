@@ -34,19 +34,19 @@ contract XP_TokenCrowdsaleDeployer{
         address payable wallet
     )
     public{
-        xro_Token token = new xro_Token(
-            name,
-            symbol,
-            0
-        );
-        xro_token_address = address(token);
-        xro_TokenCrowdsale xro_crowdsale = new xro_TokenCrowdsale(
-            1,
-            wallet,
-            token
-        );
-        xro_crowdsale_address = address(xro_crowdsale);
-        token.addMinter(xro_crowdsale_address);
-        token.renounceMinter();
+        // xro_Token token = new xro_Token(
+        //     name,
+        //     symbol,
+        //     0
+        // );
+        // xro_token_address = address(token);
+        // xro_TokenCrowdsale xro_crowdsale = new xro_TokenCrowdsale(
+        //     1,
+        //     wallet,
+        //     token
+        // );
+        // xro_crowdsale_address = address(xro_crowdsale);
+        // token.addMinter(xro_crowdsale_address);
+        // token.renounceMinter();
     }
 }

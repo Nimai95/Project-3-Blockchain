@@ -8,7 +8,7 @@ from typing import Any, List
 from pathlib import Path
 from dotenv import load_dotenv
 from web3 import Web3
-w3 = Web3(Web3.HTTPProvider('HTTP://127.0.0.1:8545'))
+# w3 = Web3(Web3.HTTPProvider('HTTP://127.0.0.1:8545'))
 ##########################################################
 
 load_dotenv()
@@ -29,7 +29,7 @@ w3 = Web3(Web3.HTTPProvider(os.getenv("WEB3_PROVIDER_URI")))
 def load_contract():
 
     # Load Art Gallery ABI
-    with open(Path('./contracts/compiled/xroToken_abi.json')) as f:
+    with open(Path('contracts/compiled/xroToken_abi.json')) as f:
         certificate_abi = json.load(f)
 
     # Set the contract address (this is the address of the deployed contract)
@@ -49,25 +49,10 @@ contract = load_contract()
 
 
 ##########################################################
-# Award Certificate
+# Streamlit code
 ##########################################################
 
-# accounts = w3.eth.accounts
-# account = accounts[0]
-# student_account = st.selectbox("Select Account", options=accounts)
-# certificate_details = st.text_input("Certificate Details", value="FinTech Certificate of Completion")
-# if st.button("Award Certificate"):
-#     contract.functions.awardCertificate(student_account, certificate_details).transact({'from': account, 'gas': 1000000})
-
-##########################################################
-# Display Certificate
-##########################################################
-# certificate_id = st.number_input("Enter a Certificate Token ID to display", value=0, step=1)
-# if st.button("Display Certificate"):
-#     # Get the certificate owner
-#     certificate_owner = contract.functions.ownerOf(certificate_id).call()
-#     st.write(f"The certificate was awarded to {certificate_owner}")
-
-#     # Get the certificate's metadata
-#     certificate_uri = contract.functions.tokenURI(certificate_id).call()
-#     st.write(f"The certificate's tokenURI metadata is {certificate_uri}")
+# Streamlit application headings
+st.markdown("# xroToken")
+st.markdown("by The Graces xro Smart Contracts will work in this UI")
+st.text("\n")
