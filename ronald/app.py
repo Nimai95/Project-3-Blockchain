@@ -32,7 +32,7 @@ st.text("\n")
 st.markdown(
     """
         to do / can do?
-        * list currently active instead of default acc.  rr
+        * list currently active instead of default acc.  
         * list all accs. 
         * list balances
     """
