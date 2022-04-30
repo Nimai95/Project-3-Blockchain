@@ -1,27 +1,24 @@
-# Imports
+# imports
 import streamlit as st
 
-# Import the functions from ethereum.py
+# functions from xro_eth_acc.py
 from xro_eth_acc import generate_account
 from web3 import Web3
 
+# ganache
 w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))
 
-##########################################################
-
-# Import the functions from ethereum.py
+# import the functions from xro_eth_acc.py
 account = generate_account(w3)
 
 ##########################################################
-# Streamlit code
+# streamlit code
 ##########################################################
 
-# Streamlit response test
 st.markdown("# xroToken: MetaMask account listing")
 st.text("\n")
 
-# list of Ganache accounts
-# Write the Ethereum account address to the Streamlit page
+# list of ganache accounts
 st.markdown("default ganache blockchain address")
 st.write(account.address)
 st.text("\n")
@@ -39,7 +36,7 @@ st.text("\n")
 # st.markdown("***todo: list all accs.")
 # st.text("\n")
 
-# r:    omit Streamlit footer
+# r:    omit streamlit footer
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: visible;}
