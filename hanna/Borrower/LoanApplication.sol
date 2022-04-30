@@ -7,11 +7,11 @@ import "./Loan.sol";
 contract LoanApplication {
 
     address payable public borrower;  
-    AssetToken public token; 
+    AssetToken public token; // Token the borrower will be used as collateral
     uint256 public collateralAmount; 
-    uint256 public loanAmount; 
-    uint256 public payoffAmount; 
-    uint256 public loanDuration; 
+    uint256 public loanAmount; //Principle
+    uint256 public payoffAmount; //Principle + Interest
+    uint256 public loanDuration; // in seconds
     
     constructor(
         AssetToken Token,
@@ -43,9 +43,9 @@ contract LoanApplication {
             collateralAmount,
             payoffAmount,
             loanDuration
-        );
+        ); // info of loan 
 
-        require(token.transferFrom(borrower, address(loan), collateralAmount));
+        require(token.transferFrom(borrower, address(loan), collateralAmount)); // require borrower to send Collateral Amount to Loan Contract
         borrower.transfer(loanAmount); 
         emit LoanApproval(address(loan)); 
     }

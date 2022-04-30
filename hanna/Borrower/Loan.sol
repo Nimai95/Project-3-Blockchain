@@ -1,15 +1,15 @@
 pragma solidity ^0.5.5;
 
-import "./xroTokenMintable.sol";
+import "./AssetTokenMintable.sol";
 
 contract Loan {
-    address payable public lender;
+    address payable public lender= msg.sender;
     address payable public borrower;
     AssetToken public token;
     uint256 public collateralAmount;
     uint256 public payoffAmount;
     uint256 public dueDate;
-    uint public startOn;
+    uint public startOn; 
 
 
     constructor(
@@ -19,6 +19,7 @@ contract Loan {
         uint256 CollateralAmount,
         uint256 PayoffAmount,
         uint256 LoanDuration
+        
     ) public {
         lender = Lender;
         borrower = Borrower;
@@ -26,7 +27,8 @@ contract Loan {
         collateralAmount = CollateralAmount;
         payoffAmount = PayoffAmount;
         startOn = block.timestamp;
-        dueDate = startOn + LoanDuration;
+        dueDate = startOn + LoanDuration; //in seconds
+     
     }
 
 
@@ -40,10 +42,9 @@ contract Loan {
 
     }
     event LoanDefault();
-    function collateralLiquidate() public payable {
+    function collateralLiquidate() public  {
         // require(block.timestamp > dueDate); 
-        require(token.transfer(lender, collateralAmount)); 
+        require(token.transfer(lender, collateralAmount)); // collateral in loan contract send to borrower
         emit LoanDefault();
     }
 }
-    
