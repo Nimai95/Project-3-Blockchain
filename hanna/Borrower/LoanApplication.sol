@@ -6,15 +6,15 @@ import "./Loan.sol";
 
 contract LoanApplication {
 
-    address public borrower; 
-    xro_Token public token; 
+    address payable public borrower;  
+    AssetToken public token; 
     uint256 public collateralAmount; 
     uint256 public loanAmount; 
     uint256 public payoffAmount; 
     uint256 public loanDuration; 
-
+    
     constructor(
-        xro_Token Token,
+        AssetToken Token,
         uint256 CollateralAmount,
         uint256 LoanAmount,
         uint256 PayoffAmount,
@@ -33,9 +33,9 @@ contract LoanApplication {
 
     event LoanApproval(address loan);
 
-    function lendEther() payable public {
-        require(msg.value >= loanAmount);
-        require(msg.sender == borrower);
+    function lendEther() public payable {
+        require(msg.value == loanAmount);
+
         loan = new Loan(
             msg.sender,
             borrower,
@@ -45,8 +45,8 @@ contract LoanApplication {
             loanDuration
         );
 
-        // require(token.transferFrom(borrower, address(loan), collateralAmount));
-        msg.sender.transfer(loanAmount); 
+        require(token.transferFrom(borrower, address(loan), collateralAmount));
+        borrower.transfer(loanAmount); 
         emit LoanApproval(address(loan)); 
     }
 }
