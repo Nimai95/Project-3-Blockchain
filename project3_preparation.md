@@ -1,37 +1,29 @@
 # Project 3: Application of Smart Contract in Lending Activity
 
-## Context
+## Context 
 
-A newly established Bank of ABC just finished its first round of capital raising through ICO. The bank now has huge capital ready for its lending businesses. As in the establishment charter, the bank is only allowed to finance for startup companies. However, the Board of Directors of the bank have been very concerned about the volatile of all asset classes, slowing down of the economy recently, as well as high risk of startup businesses, they require borrowers to transfer 20% amount of loan value to an escrow account for all the Loan Contract so that in case of default the bank could collect at least 20% of loan value.
+The goal of the project was to show the lending and repayment process using solidity. We used ICO as a method to start to raise capital for thier busines sor personal reasons. An established lender like a bank can finance companies for any business related situation. In these contracts we have shown how the loan contracts how a loan will be transacted using different solidity contracts.
 
 Structure of transaction are as follows: 
 
 
 ![alt=""](nimai/loan.png)
 
-
-## Key terms:
-
-Loan Contract: 
-
-Escrow: Token/ETHs are transferred to a third-party smart contract called the escrow. The escrow holds the deposited tokens until the payment conditions are satisfied.
+## Simple Terms
+- Borrower: Common people, or in this case the difference Ganache addres or account 9
+- Lender: Banks or financial Institutions or account 10
 
 ## Smart Contracts Needed
-
-1. ICO of the Bank
-2. Loan Contract: calculating interest rate (TBD: bullet or amortizing principle), period of payment,missed/ late payment, penalties level, penalties of default level , payment, NIM( net interest margin) - 5%/10%,
-
-Build MVP: assumptions
- 
-
-(*) Note: one of requirement to make Loan Contract valid is that Borrowers signed and deposit escrow money into escrow account
+- XRO Token Crowdsale and Mintable (Lender)
+- Loan
+- Loan Application
+- Asset Token Mintable
+- Loan Repayment
+- App.py (streamlit)
 
 ### Key Assumptions:
 
-- Currency: ETH
-- Details of the lending products:
-- Conditions of lending: revenue, customer networth, income, certain financial ratios
-- 
+- Currency: ETH 
 
 ## Proposed Timeline
 
