@@ -7,7 +7,8 @@ contract Interest{
 
     using SafeMath for uint;
     uint256 interesttopay;
-
+    uint128 public pct = 100;
+    
     function getResults(uint256 LoanAmount, uint256 interest, uint256 term) public{
         interesttopay = SafeMath.mul(LoanAmount, SafeMath.mul(interest, term));
 
@@ -15,5 +16,7 @@ contract Interest{
     function interestval() public view returns(uint256){
         return interesttopay;
     }
-
+    function interestcal() public view returns(uint256){
+        return (interesttopay/pct);
+    }
     }
