@@ -7,7 +7,7 @@ A newly established Bank of ABC just finished its first round of capital raising
 Structure of transaction are as follows: 
 
 
-![alt=""](Images/flow.png)
+![alt=""](nimai/loan.png)
 
 
 ## Key terms:
