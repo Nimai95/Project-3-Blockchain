@@ -39,10 +39,9 @@ We are use crowdsale method considering it as raising funds/ ICO, then use the c
 - Handling decimals in repayment calculation
 - Streamlit
 
-
-## Technology in the project
+## Technology used in the project
 - Jupyter Notebook
 - Metamask
 - Remix with mainly ERC20, Crowdsale, Mintable
-- Deploying smart contract at the designated address (new)
+- Deploying smart contract at the designated address (* new)
 
