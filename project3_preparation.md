@@ -11,14 +11,13 @@ We are use crowdsale method considering it as raising funds/ ICO, then use the c
 
 ## Flow of the transaction 
 
-
 ![alt=""](nimai/loan.png)
 
 
 ### Terms 
 - Lender: A Lender/ Bank / Financial Institutions have capital/money and want to lend out money to earn the interest. Raising capital via crowdsale
 - Borrower: An individual has an asset and want to borrow money, willing to put asset as collateral
--
+
 ### Real application
 - P2P lending with collateral: quick, easy and economically 
 
@@ -30,12 +29,15 @@ We are use crowdsale method considering it as raising funds/ ICO, then use the c
 ### Lending with Smart Contracts 
 ![alt=""](nimai/borrower.png)
 
+### Loan Application Video
+Video Demonstrates how the loan process
+
 ## Challenges
 
 - Metamask and Remix errors 
 - Langague of different version of Remix is different
 - Overide the library
-- Choosing the repayment process
+- Handling decimals in repayment calculation
 - Streamlit
 
 
