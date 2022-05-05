@@ -35,12 +35,15 @@ Video Demonstrates how the loan process
 ## Challenges
 
 - Metamask and Remix errors 
-- Langague of different version of Remix is different
-- Overide the library
+- Langagues of different versions of Remix are different
+- Overide the library/standard is hard
 - Handling decimals in repayment calculation
 - Streamlit
 
 
-## New Technology 
-* Deploying smart contract at the designated address
+## Technology in the project
+- Jupyter Notebook
+- Metamask
+- Remix with mainly ERC20, Crowdsale, Mintable
+- Deploying smart contract at the designated address (new)
 
