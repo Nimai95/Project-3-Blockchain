@@ -11,7 +11,7 @@ We are use crowdsale method considering it as raising funds/ ICO, then use the c
 
 ## Flow of the transaction 
 
-![alt=""](nimai/loan.png)
+![alt=""](Resources/nimai/loan.png)
 
 
 ### Terms 
@@ -22,12 +22,12 @@ We are use crowdsale method considering it as raising funds/ ICO, then use the c
 - P2P lending with collateral: quick, easy and economically 
 
 ## Illustration
-![alt=""](nimai/lender.png)
+![alt=""](Resources/nimai/lender.png)
 
 ### ICO/Jupyter Notebook Illustration
 
 ### Lending with Smart Contracts 
-![alt=""](nimai/borrower.png)
+![alt=""](Resources/nimai/borrower.png)
 
 ### Loan Application Video
 Video Demonstrates how the loan process
