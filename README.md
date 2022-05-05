@@ -2,11 +2,11 @@
 
 ## Context
 
-Blockchain is transforming everything in financial transactions from raising money in capital markets, using it as an escrow, to lending activities. In other words, we strongly believe that blockchain technology is potential of disrupting finance and banking services. In this project, we aim to develop Decentralize Finance (Defi) via blockchain technology. 
+Blockchain is transforming everything in financial transactions from raising money in capital markets, using it as an escrow to lending activities. Blockchain technology has the demonstrated potential to disrupt finance and banking services. This project aims to develop Decentralize Finance (Defi) via blockchain technology. 
 
 ## The Project
 
-We are use crowdsale method considering it as raising funds/ ICO, then use the capital for lending. To make the lending activities less risky, presequite of the lending is that the borrower put the collateral asset into an designated account at the same time we lend the money. The collateral amount only releases back to borrower when borrower pays off total loan amount fully and by due date. If the borrower can not pay enough by due date, the lender has the right to collect the collateral amount. 
+We deploy crowdsale method to raise funds for an ICO, used as the capital for lending. To make the lending activities less risky, a presequite of the lending is that the borrower put the collateral asset into a designated account at the same time we lend the money. The collateral amount only releases back to borrower when borrower pays off total loan amount fully and by the due date. If the borrower can not pay enough by the due date, the lender has the right to collect the collateral amount. 
 
 
 ## Flow of the transaction 
@@ -15,7 +15,7 @@ We are use crowdsale method considering it as raising funds/ ICO, then use the c
 
 
 ### Terms 
-- Lender: A Lender/ Bank / Financial Institutions have capital/money and want to lend out money to earn the interest. Raising capital via crowdsale
+- Lender: A Lender/Bank/Financial Institutions have capital/money and want to lend out money to earn the interest. Raising capital via crowdsale
 - Borrower: An individual has an asset and want to borrow money, willing to put asset as collateral
 
 ### Real application
@@ -30,7 +30,7 @@ We are use crowdsale method considering it as raising funds/ ICO, then use the c
 ![alt=""](Resources/nimai/borrower.png)
 
 ### Loan Application/Processing Video
-Video Demonstrates how the loan process
+Video Demonstrates the loan process
 
 ## Challenges
 
@@ -46,4 +46,3 @@ Video Demonstrates how the loan process
 - Metamask
 - Remix with mainly ERC20, Crowdsale, Mintable
 - Deploying smart contract at the designated address (new)
-
