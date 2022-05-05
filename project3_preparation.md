@@ -23,25 +23,20 @@ We are use crowdsale method considering it as raising funds/ ICO, then use the c
 - P2P lending with collateral: quick, easy and economically 
 
 ## Illustration
+![alt=""](nimai/lender.png)
 
-- Journey
+### ICO/Jupyter Notebook Illustration
 
-### ICO/Streamlit Illustration
 ### Lending with Smart Contracts 
-ppt 
-
-- XRO Token Crowdsale and Mintable (Lender)
-- Loan
-- Loan Application
-- Asset Token Mintable
-- Loan Repayment
-- App.py (streamlit)
+![alt=""](nimai/borrower.png)
 
 ## Challenges
 
 - Metamask and Remix errors 
 - Langague of different version of Remix is different
 - Overide the library
+- Choosing the repayment process
+- Streamlit
 
 
 ## New Technology 
