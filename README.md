@@ -11,7 +11,7 @@ We deploy crowdsale method to raise funds for an ICO, used as the capital for le
 
 ## Flow of the transaction 
 
-![alt=""](Resources/nimai/loan.png)
+![alt=""](Images/flow.png)
 
 
 ### Terms 
@@ -21,16 +21,15 @@ We deploy crowdsale method to raise funds for an ICO, used as the capital for le
 ### Real application
 - P2P lending with collateral: quick, easy and economically 
 
-## Illustration
-![alt=""](Resources/nimai/lender.png)
+## Demo
 
-### ICO/Jupyter Notebook Illustration
+### 1. ICO/Jupyter Notebook Demo
 
-### Lending with Smart Contracts 
-![alt=""](Resources/nimai/borrower.png)
+### 2. Loan Application/Processing Demo 
 
-### Loan Application/Processing Video
-Video Demonstrates the loan process
+![alt=""](Images/contracts.png)
+
+(video)
 
 ## Challenges
 
@@ -40,9 +39,8 @@ Video Demonstrates the loan process
 - Handling decimals in repayment calculation
 - Streamlit
 
-
-## Technology in the project
+## Technology used in the project
 - Jupyter Notebook
 - Metamask
 - Remix with mainly ERC20, Crowdsale, Mintable
-- Deploying smart contract at the designated address (new)
+- Deploying smart contract at the designated address (* new)
