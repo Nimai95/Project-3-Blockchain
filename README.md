@@ -29,7 +29,7 @@ We are use crowdsale method considering it as raising funds/ ICO, then use the c
 ### Lending with Smart Contracts 
 ![alt=""](Resources/nimai/borrower.png)
 
-### Loan Application Video
+### Loan Application/Processing Video
 Video Demonstrates how the loan process
 
 ## Challenges
