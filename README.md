@@ -28,3 +28,19 @@ We are use crowdsale method considering it as raising funds/ ICO, then use the c
 
 ### Lending with Smart Contracts 
 ![alt=""](nimai/borrower.png)
+
+### Loan Application Video
+Video Demonstrates how the loan process
+
+## Challenges
+
+- Metamask and Remix errors 
+- Langague of different version of Remix is different
+- Overide the library
+- Handling decimals in repayment calculation
+- Streamlit
+
+
+## New Technology 
+* Deploying smart contract at the designated address
+
