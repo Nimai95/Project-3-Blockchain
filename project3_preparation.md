@@ -14,27 +14,28 @@ We are use crowdsale method considering it as raising funds/ ICO, then use the c
 
 ![alt=""](nimai/loan.png)
 
+
+### Terms 
+- Lender: A Lender/ Bank / Financial Institutions have capital/money and want to lend out money to earn the interest. Raising capital via crowdsale
+- Borrower: An individual has an asset and want to borrow money, willing to put asset as collateral
+-
 ### Real application
 - P2P lending with collateral: quick, easy and economically 
 
-## Terms 
-- Borrower: An individual has an asset and want to borrow money, willing to put asset as collateral
-- Lender: A Lender/ Bank / Financial Institutions have capital/money and want to lend out money to earn the interest
+## Illustration
 
-## Smart Contracts Needed
+- Journey
+
+### ICO/Streamlit Illustration
+### Lending with Smart Contracts 
+ppt 
+
 - XRO Token Crowdsale and Mintable (Lender)
 - Loan
 - Loan Application
 - Asset Token Mintable
 - Loan Repayment
 - App.py (streamlit)
-
-### Key Assumptions:
-
-- Currency: ETH 
-
-
-
 
 ## Challenges
 
